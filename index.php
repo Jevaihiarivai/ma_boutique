@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
     <title>Ma boutique</title>
   </head>
   <body>
@@ -42,7 +42,17 @@
        </form>
      </div>
    </nav>
-    <h1>Nouvelle boutique</h1>
+   <main role="main" class="container">
+      <h1 class="mt-5">Nouvelle boutique</h1>
+      <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with on the</p>
+      <p>Back to the default sticky footer minus the navbar.</p>
+    </main>
+
+   <footer class="footer">
+      <div class="container">
+        <span class="text-muted">&copy; 2018 Alexandre GUILLIEN - Ma boutique</span>
+      </div>
+  </footer>
 
 
     <!-- Optional JavaScript -->
