@@ -12,7 +12,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-     <a class="navbar-brand" href="#">Expand at md</a>
+     <a class="navbar-brand" href="#">Ma Boutique</a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
      </button>
@@ -20,32 +20,64 @@
      <div class="collapse navbar-collapse" id="navbarsExample04">
        <ul class="navbar-nav mr-auto">
          <li class="nav-item active">
-           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+           <a class="nav-link" href="#">Accueil <span class="sr-only">(page actuelle)</span></a>
          </li>
          <li class="nav-item">
-           <a class="nav-link" href="#">Link</a>
+           <a class="nav-link" href="#">Liens</a>
          </li>
          <li class="nav-item">
-           <a class="nav-link disabled" href="#">Disabled</a>
+           <a class="nav-link disabled" href="#">Bientôt disponible</a>
          </li>
          <li class="nav-item dropdown">
            <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
            <div class="dropdown-menu" aria-labelledby="dropdown04">
-             <a class="dropdown-item" href="#">Action</a>
-             <a class="dropdown-item" href="#">Another action</a>
-             <a class="dropdown-item" href="#">Something else here</a>
+             <a class="dropdown-item" href="#">Acheter</a>
+             <a class="dropdown-item" href="#">Vendre</a>
+             <a class="dropdown-item" href="#">Plus d'infos</a>
            </div>
          </li>
        </ul>
        <form class="form-inline my-2 my-md-0">
-         <input class="form-control" type="text" placeholder="Search">
+         <input class="form-control" type="text" placeholder="Rechercher">
        </form>
      </div>
    </nav>
-   <main role="main" class="container">
-      <h1 class="mt-5">Nouvelle boutique</h1>
-      <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with on the</p>
-      <p>Back to the default sticky footer minus the navbar.</p>
+
+   <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">Ma super boutique</h1>
+          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Inscription &raquo;</a></p>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Liste des produits</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-secondary" href="#" role="button">Acheter &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Boutique personnelle</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-secondary" href="#" role="button">Vendre &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Détails</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">Des infos &raquo;</a></p>
+          </div>
+        </div>
+
+        <hr>
+
+      </div> <!-- /container -->
+
     </main>
 
    <footer class="footer">
