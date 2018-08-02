@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="style.css">
   <title>Ma boutique qui roxxxxxx du poney!</title>
 
-    <title>Sex online</title>
-
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -51,7 +49,7 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <div class="container">
-          <h1 class="display-3">C'est moi qu'a le putain de meilleur titre !!!</h1>
+          <h1 class="display-3">La petite boutique de Jacky et Michel</h1>
           <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
           <p><a class="btn btn-primary btn-lg" href="#" role="button">Inscription &raquo;</a></p>
         </div>
